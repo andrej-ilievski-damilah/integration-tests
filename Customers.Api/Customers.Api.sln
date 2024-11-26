@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "Customers.Api.csproj", "{9528B84C-8A42-4BE8-B610-369547F2D931}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeApi", "..\FakeApi\FakeApi.csproj", "{F7FECD53-26C7-474D-B918-56FE0184C3CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "Customers.Api.csproj", "{9528B84C-8A42-4BE8-B610-369547F2D931}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A3A96A39-25B8-48FC-B047-8569ECA83AD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api.Tests.Integration", "..\Customers.Api.Tests.Integration\Customers.Api.Tests.Integration.csproj", "{B54B85F8-EE18-4708-9CBC-BA2F07193D43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api.Tests.Integration", "..\Customers.Api.Tests.Integration\Customers.Api.Tests.Integration.csproj", "{B54B85F8-EE18-4708-9CBC-BA2F07193D43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		{9528B84C-8A42-4BE8-B610-369547F2D931}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9528B84C-8A42-4BE8-B610-369547F2D931}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9528B84C-8A42-4BE8-B610-369547F2D931}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7FECD53-26C7-474D-B918-56FE0184C3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7FECD53-26C7-474D-B918-56FE0184C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7FECD53-26C7-474D-B918-56FE0184C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7FECD53-26C7-474D-B918-56FE0184C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B54B85F8-EE18-4708-9CBC-BA2F07193D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B54B85F8-EE18-4708-9CBC-BA2F07193D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B54B85F8-EE18-4708-9CBC-BA2F07193D43}.Release|Any CPU.ActiveCfg = Release|Any CPU

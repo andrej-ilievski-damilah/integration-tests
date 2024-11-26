@@ -63,13 +63,3 @@ public class CustomerApiFactory : WebApplicationFactory<IApiMarker>, IAsyncLifet
         _gitHubApiServer.Dispose();
     }
 }
-
-// private readonly TestcontainersContainer _dbContainer =
-//     new TestcontainersBuilder<TestcontainersContainer>()
-//         .WithImage("postgres:latest")
-//         .WithEnvironment("POSTGRES_USER", "bootcamp")
-//         .WithEnvironment("POSTGRES_PASSWORD", "changeme")
-//         .WithEnvironment("POSTGRES_DB", "mydb")
-//         .WithPortBinding(5555, 5432)
-//         .WithWaitStrategy(Wait.ForUnixContainer().UntilPortIsAvailable(5432))
-//         .Build();
